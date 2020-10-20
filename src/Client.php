@@ -5,7 +5,7 @@ class Client
 {
 	public function send($data,$key)
 	{
-		$ch = curl_init('http://127.0.0.1:8000/api/v1/blago/new-lead');
+		$ch = curl_init('https://skupka.com/api/v1/blago/new-lead');
 		
 		$authorization = 'Authorization: Bearer ' . $key;
 		curl_setopt($ch, CURLOPT_HTTPHEADER, [$authorization]);
