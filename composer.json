@@ -1,0 +1,22 @@
+{
+    "name": "letrams/skupka-client",
+    "description": "private client",
+    "type": "liblary",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "authors": [
+        {
+            "name": "Misha Topol",
+            "email": "misha.topol@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Letrams\\SkupkaClient\\": "src/"
+        }
+    }
+}
